@@ -1,9 +1,15 @@
 body{
-    width: 43%;
+    width: 42%;
     background-color: rgb(226, 226, 226);
     margin: auto;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+
+            /*   -----   Selecteur général   -----   */
+
+
 
 section {
     background-color: white;
@@ -11,21 +17,158 @@ section {
     box-shadow: 1px 1px 2px rgb(165, 165, 165);
     padding: 20px;
     margin: 25px;
+    
 }
 
-/*.biographie {
+a{
+    text-decoration: none;
+}
 
-}*/
-
-.Tim {
-    width: 150px;
-    border-radius: 100%;
-    border: 3px solid rgb(158, 158, 158); 
-
+button a:visited{
+    color: white;
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 19px;
-    color: #a3a3a3;
+
+    font-size: 22px;
+    text-align: justify;
+    color: #919191;
+    line-height: 35px;
+}
+
+strong{
+    font-weight:bolder;
+    color: #7D7D80;
+}
+
+h1{
+    font-size: 30px;
+    color: #DD5555;
+    font-weight: bolder;
+}
+
+h2 {
+
+    color: #919191;
+    font-weight: bolder;
+    margin-bottom: 55px;
+}
+
+h3{
+    font-size: 21px;
+    color: #919191;
+    text-align: center !important;  
+
+}
+
+
+    /*   -----   BLOCK 1   -----   */            
+
+
+.tim {
+    width: 140px;
+    height:140px;
+    border-radius: 50%;
+    border: 4px solid rgb(175, 175, 175); 
+
+}
+
+.see-boutton{
+    max-width: 200px;
+    width: 100%;
+    height: 55px;
+    padding: 12px 12px;
+    margin-bottom: 35px;
+    color: white;
+    font-size:23px;
+    background-color: #DD5555;
+    border-radius: 5px;
+    border:none;
+    cursor:pointer;
+}
+
+button a{
+    color: white;
+}
+
+
+
+
+            /*   -----   BLOCK 2 RESEAU SOCIAUX   -----   */
+
+
+li{
+   
+    margin:25px;
+    font-size: 26px;
+    color: #DD5555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    display:inline-flex
+}
+
+.rs{
+    color: #7D7D80;
+}
+
+.logors{
+    height:32px;
+    margin: 15px;
+}
+
+/*.fb {
+    list-style-image: url("./image/fb.svg");
+}
+.linkedin{
+    list-style-image: url("./image/in.svg");
+}
+.twitter{
+    list-style-image: url("./image/twitter.svg");
+}
+*/
+
+.reseau-social{
+
+    /*padding: 150px;*/
+}
+
+
+
+
+            /*   -----   BLOCK 3 LISTE FILM   -----   */
+
+
+
+
+
+.bloc-film{
+    display: flex;
+    flex-flow: row wrap;
+    margin:25px 0 25px 25px;
+}
+article.text p{
+    width:450px;
+    max-width: 100%;
+}
+
+
+.text {
+   text-align: justify;
+   padding : 25px 0px 25px 25px;
+   width: 71%;
+}
+
+.his {
+    background-color: #dddddd;
+
+}
+
+.photo-liste {
+    width: 21%;
+    height:21%;
+    margin: 9% 0 0 0;
 }

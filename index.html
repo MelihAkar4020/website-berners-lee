@@ -1,46 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Tim Berners-Lee</title>
+   </head>
 
-<head>
-<link href="style.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-
-</head>
+  <body>
 
 
-<body>
-   
     <section class="biographie">
-        <img class="Tim" src="./image/tim_berners_lee.jpg" alt="" srcset="">
-        <h1>Tim Berners-Lee</h1>
-        <h2>Inventor of HTML</h2>
-        <p>Tim Berners-Lee is the inventor of the Web. In 1989, Tim was working in a computing services section of CERN when he came up with the concept; at the time he had no idea that it would be implemented on such an enormous scale.</p>
-        <p>See for yourself</p>
+      <img class="tim" src="./image/tim_berners_lee.jpg" alt="" />
+      <h1>Tim Berners-Lee</h1>
+      <h2>Inventor of HTML</h2>
+      <p>
+        Tim Berners-Lee is the <strong>inventor</strong> of the Web. In 1989,
+        Tim was working in a computing services section of CERN when he came up
+        with the concept; at the time he had no idea that it would be
+        implemented on such an <strong>enormous scale.</strong>
+      </p>
+
+    
+        <a href="https://fr.wikipedia.org/wiki/Tim_Berners-Lee" class="see-boutton" > See for yourself</a>
+    
+
     </section>
 
+
+
+    <!--     BLOC 2 RESEAU SOCIAUX       -->
+
+
+
     <section class="reseau-social">
-        <ul>
-            <li><a href="https://www.facebook.com/Sir-Tim-Berners-Lee-174851762937116/"> Facebook</a></li>
-            <li><a href="https://www.linkedin.com/pulse/sir-tim-berners-lee-andrew-maltzoff">Linkedin</a></li>
-            <li><a href="https://twitter.com/timberners_lee">Twitter</a></li>
+            
+        <ul class="logo">
+            <li class="fb">
+                <img class="logors" src="./image/fb.svg" alt="logo fb" >
+                <a href="https://www.facebook.com/Sir-Tim-Berners-Lee-174851762937116/" class="rs" >
+                    Facebook </a>
+            </li>
         </ul>
-    </section>    
+        <ul class="logo">
+            <li class="linkedin">
+                <img class="logors" src="./image/in.svg" alt="logo-linkedin" >
+                <a href="https://www.linkedin.com/pulse/sir-tim-berners-lee-andrew-maltzoff" class="rs" >Linkedin</a>
+            </li>
+        </ul>
+        <ul class="logo">
+            <li class="twitter">
+                <img class="logors" src="./image/twitter.svg" alt="logo-twitter" >
+                <a href="https://twitter.com/timberners_lee" class="rs" >Twitter</a>
+            </li>
+        </ul>
+   
+    </section>
+
+
+    <!--   BLOC 3 LISTE DES FILMS    -->
+
+
 
     <section class="liste-film">
-        <h2>His favorite movies</h2>
+      <h2><strong class="his">His</strong> favorite movies</h2>
+     
 
-        <img src="./image/space_odyssey.jpg" alt="" srcset="">
-        <p>2001 - Space Odyssey</p>
-        <p>Humanity finds a mysterious, obisously artificial, object buried beneath the Lunar surface and, with the inteligent computer H.A.L. 9000, sets off on a quest</p>
+      <article class="bloc-film">
 
-        <img src="./image/mister_hulot.jpg" alt="" srcset="">
-        <p>Monsieur Hulot</p>
-        <p>Monsieur Hulot comes to a beachside hotel for a vacation, when he accidentally (but good-naturedly) cause havoc.</p>
+        <img class="photo-liste" src="./image/space_odyssey.jpg" alt="space odyssey"/>
 
-        <img src="./image/alien.jpg" alt="" srcset="">
-        <p>Alien</p>
-        <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.</p>
-    </section>    
+        <article class="text">
+          <h3>2001 - Space Odyssey</h3>
+          <p>
+            Humanity finds a mysterious, obisously artificial, object buried
+            beneath the Lunar surface and, with the inteligent computer H.A.L.
+            9000, sets off on a quest
+          </p>
+        </article>
+      </article>
 
-</body>    
+      <article class="bloc-film">
+
+        <img
+            class="photo-liste" src="./image/mister_hulot.jpg" alt="mister hulot"/>
+
+        <article class="text">
+          <h3>Monsieur Hulot</h3>
+          <p>
+            Monsieur Hulot comes to a beachside hotel for a vacation, when he
+            accidentally (but good-naturedly) cause havoc.
+          </p>
+        </article>
+      </article>
+
+      <article class="bloc-film">
+        <img  class="photo-liste" src="./image/alien.jpg" alt="Alien"/>
+        <article class="text">
+          <h3>Alien</h3>
+          <p>
+            The commercial vessel Nostromo receives a distress call from an
+            unexplored planet. After searching for survivors, the crew heads
+            home only to realize that a deadly bioform has joined them.
+          </p>
+        </article>
+      </article>
+    </section>
+
+  </body>
 </html>
